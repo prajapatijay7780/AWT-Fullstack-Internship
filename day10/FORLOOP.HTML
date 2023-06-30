@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORLOOP</title>
+</head>
+<body>
+    <h style="color: black;">JavaScript For Of Loop</h>
+<p>fav fruits</p>
+
+<p id="demo"></p>
+
+<script>
+const cars = ["banana", "mango", "orange"];
+
+let text = "";
+for (let x of cars) {
+  text += x + "<br>";
+}
+ 
+document.getElementById("demo").innerHTML = text;
+</script>
+    
+</body>
+</html>

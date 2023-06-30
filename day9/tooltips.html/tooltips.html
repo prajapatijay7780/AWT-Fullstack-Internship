@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <TITLE>TOOLTIPS</TITLE>
+<style> 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted rgb(214, 15, 15);
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(156, 66, 66);
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+</style>
+<body style="text-align:center;">
+
+<h2>Basic Tooltip</h2>
+
+<p>Move the mouse over the text below:</p>
+
+<div class="tooltip"> heello indians
+  <span class="tooltiptext">Tooltip </span>
+</div>
+
+<p> HELLO POOJAN BAGARIA</p>
+</body>
+</html>
